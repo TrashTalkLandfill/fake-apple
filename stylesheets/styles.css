@@ -120,3 +120,33 @@ body {
   background-position-x: 5px;
   background-position-y: 70%;
 }
+
+.image-row {
+  height: 200px;
+  width: 100vw;
+  margin-top: 2px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2px;
+}
+
+.img-div {
+  height: 100%;
+  background-position-x: 50%;
+}
+
+.img-div:first-child {
+  background-image: url(../assets/background1.jpg);
+}
+
+.img-div:nth-child(2) {
+  background-image: url(../assets/background2.jpg);
+}
+
+.img-div:nth-child(3) {
+  background-image: url(../assets/background3.jpg);
+}
+
+.img-div:last-child {
+  background-image: url(../assets/background4.jpg);
+}
